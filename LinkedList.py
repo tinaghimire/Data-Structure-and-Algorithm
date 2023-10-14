@@ -6,7 +6,7 @@ class Node:
 
 #LinkedList class
 class LinkedList:
-    def __init__(self) -> None:
+    def __init__(self):
         self.head = None
         self.tail = None
 
@@ -19,6 +19,10 @@ class LinkedList:
         else:
             self.tail = new_node
             self.head = new_node
+    
+    #Insert at beginning
+    def remove_at_beginning(self, data):
+        self.head = self.head.next
 
     #Inser at end
     def insert_at_end(self, data):
@@ -45,6 +49,7 @@ name.insert_at_beginning("Kristina")
 name.insert_at_end("Prerit")
 name.search("Gunda")
 name.search("Kristina")
+
 
             
         
