@@ -36,9 +36,18 @@
 - Last In First Out (LIFO) type
 - Push and pop operation 
 
-#### LifoQueue: (Like Stack)
-- Python's queue module
-- Needs to import queue
+**LifoQueue in Python: (Like Stack)**
+
+## IV. Queue
+
+- First In First Out (FIFO) type
+- Enqueue (only insert at end) and Dequeue (only remove from head) operation
+- Other kinds of queue:
+  - Doubly ended queues
+  - Circular queues
+  - Priority queues
+
+**SimpleQueue in Python: (Like Queue)**
 
 
 
