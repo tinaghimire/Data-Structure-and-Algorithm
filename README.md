@@ -2,10 +2,8 @@
 ## I. Linked Lists
 
 - Sequence of data connected through links.
-- Each element, called node, has two parts: Data and pointer to the next element.
-
-### Real uses: 
-- To implement other data structures:
+- Each element, called node, has two parts: Data and pointer to the next element. 
+- Used to implement other data structures:
     -Stacks
     -Queues
     -Graphs
@@ -33,6 +31,14 @@
 2. Different variables for different inputs
 3. Remove smaller terms
 
+## III. Stack
+
+- Last In First Out (LIFO) type
+- Push and pop operation 
+
+#### LifoQueue: (Like Stack)
+- Python's queue module
+- Needs to import queue
 
 
 
