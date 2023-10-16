@@ -46,9 +46,9 @@ class LinkedList:
     
 name = LinkedList()
 name.insert_at_beginning("Kristina")
-name.insert_at_end("Prerit")
-name.search("Gunda")
-name.search("Kristina")
+name.insert_at_beginning("Kristina")
+name.insert_at_beginning("Kristina")
+print(name)
 
 
             
