@@ -78,7 +78,30 @@
 - In trees, all nodes must be connected but in graphs, there may be unconnected nodes.
 - Both are used for searching and sorting algorithm.
 
+## VIII. Recursion
 
+- Function calling itself
+- Example: Factorial, TowerOfHanoi
+
+### How recursion works (Example: Factorial)
+
+- factorial(5) starts
+- Before factorial(5) finishes -> factorial(4) starts 
+- Before factorial(4) finishes -> factorial(3) starts 
+- Before factorial(3) finishes -> factorial(2) starts 
+- Before factorial(2) finishes -> factorial(1) starts 
+- factorial(1) finishes and returns 1
+- Then the execution of factorial(2) starts and after completion next starts.
+
+### Dynamic Programming
+
+- Optimization technique
+- Mainly applied to recursion
+- Can reduce the complexity of recursive algorithms
+- Used for:
+  - Any problems that can be divided into smaller subproblems
+  - Subproblems overlap
+- Solutions of subproblems are saved, avoiding the need to recalculate
 
 
 
