@@ -49,6 +49,20 @@
 
 **SimpleQueue in Python: (Like Queue)**
 
+## V. Hash table
+
+- Stores a collection of items
+- Key value pairs (Dictionaries in python)
+- Each position in hash is called slots/ buckets.
+- Every time a hash function is applied, it must return the same value for the same input
+- If different inputs get the same output or slot area, then there occurs collision.
+
+
+
+
+
+
+
 
 
 
