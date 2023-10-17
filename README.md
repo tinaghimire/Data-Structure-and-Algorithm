@@ -1,4 +1,7 @@
 # Data Structure and Algorithm in Python
+
+**These are not my words. I created this for future revision.**
+
 ## I. Linked Lists
 
 - Sequence of data connected through links.
@@ -56,6 +59,28 @@
 - Each position in hash is called slots/ buckets.
 - Every time a hash function is applied, it must return the same value for the same input
 - If different inputs get the same output or slot area, then there occurs collision.
+
+## VI. Trees 
+
+- Node-based data structures
+- Each node can have links to more than one node.
+- Binary tree is a tree that can have atmost two children in each node.
+
+## VII. Graphs
+
+- A collection of nodes that have data and are connected to other nodes.
+- A graph can be directed, undirected or bidirected.
+- A weighted graph contains numeric values associated with the edges and can be either directed or undirected.
+
+### Differences between Trees and Graphs
+
+- Trees cannot have cycles but graph can.
+- In trees, all nodes must be connected but in graphs, there may be unconnected nodes.
+- Both are used for searching and sorting algorithm.
+
+
+
+
 
 
 
